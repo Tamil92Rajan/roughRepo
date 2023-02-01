@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.8">
+    <testcase classname="Zoho Feature One" name="signup" time="8.39">
+        <system-out><![CDATA[Given zoho Site Launch......................................................passed
+When go To Zoho Homepage Send "username11" "password11" "111111"............passed
+And click Submit Takescreenshot.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

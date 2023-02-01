@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-30T21:28:18 IST" name="Suite" finished-at="2022-11-30T21:28:31 IST" duration-ms="13042">
+    <groups>
+      <group name="Mob TC">
+        <method signature="Zoho_TestNG5ParameterBase_CO_WDM.go_to_zoho_homepage_sendMobileNo(java.lang.String)[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" name="go_to_zoho_homepage_sendMobileNo" class="com.testng.Zoho_TestNG5ParameterBase_CO_WDM"/>
+        <method signature="Zoho_TestNG5ParameterBase_CO_WDM.go_to_zoho_homepage_sendTandC()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" name="go_to_zoho_homepage_sendTandC" class="com.testng.Zoho_TestNG5ParameterBase_CO_WDM"/>
+        <method signature="Zoho_TestNG5ParameterBase_CO_WDM.go_to_zoho_homepage_sendSignUp()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" name="go_to_zoho_homepage_sendSignUp" class="com.testng.Zoho_TestNG5ParameterBase_CO_WDM"/>
+      </group> <!-- Mob TC -->
+      <group name="initial">
+        <method signature="Zoho_TestNG5ParameterBase_CO_WDM.beforeSuite_execution()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" name="beforeSuite_execution" class="com.testng.Zoho_TestNG5ParameterBase_CO_WDM"/>
+        <method signature="Zoho_TestNG5ParameterBase_CO_WDM.browserLaunch()[pri:1, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" name="browserLaunch" class="com.testng.Zoho_TestNG5ParameterBase_CO_WDM"/>
+        <method signature="Zoho_TestNG5ParameterBase_CO_WDM.login_page()[pri:2, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" name="login_page" class="com.testng.Zoho_TestNG5ParameterBase_CO_WDM"/>
+      </group> <!-- initial -->
+      <group name="Screenshot">
+        <method signature="Zoho_TestNG5ParameterBase_CO_WDM.click_submit_takescreenshot()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" name="click_submit_takescreenshot" class="com.testng.Zoho_TestNG5ParameterBase_CO_WDM"/>
+      </group> <!-- Screenshot -->
+      <group name="close">
+        <method signature="Zoho_TestNG5ParameterBase_CO_WDM.afterTest_Execution()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" name="afterTest_Execution" class="com.testng.Zoho_TestNG5ParameterBase_CO_WDM"/>
+        <method signature="Zoho_TestNG5ParameterBase_CO_WDM.endSession()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" name="endSession" class="com.testng.Zoho_TestNG5ParameterBase_CO_WDM"/>
+      </group> <!-- close -->
+      <group name="Mail PW">
+        <method signature="Zoho_TestNG5ParameterBase_CO_WDM.go_to_zoho_homepage_sendEmail(java.lang.String)[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" name="go_to_zoho_homepage_sendEmail" class="com.testng.Zoho_TestNG5ParameterBase_CO_WDM"/>
+        <method signature="Zoho_TestNG5ParameterBase_CO_WDM.go_to_zoho_homepage_sendPassword(java.lang.String)[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" name="go_to_zoho_homepage_sendPassword" class="com.testng.Zoho_TestNG5ParameterBase_CO_WDM"/>
+      </group> <!-- Mail PW -->
+    </groups>
+    <test started-at="2022-11-30T21:28:18 IST" name="Test" finished-at="2022-11-30T21:28:31 IST" duration-ms="13042">
+      <class name="com.testng.Zoho_TestNG5ParameterBase_CO_WDM">
+        <test-method signature="beforeSuite_execution()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" started-at="2022-11-30T21:28:18 IST" name="beforeSuite_execution" finished-at="2022-11-30T21:28:21 IST" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite_execution -->
+        <test-method signature="browserLaunch()[pri:1, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" started-at="2022-11-30T21:28:21 IST" name="browserLaunch" finished-at="2022-11-30T21:28:25 IST" duration-ms="3888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="login_page()[pri:2, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" started-at="2022-11-30T21:28:25 IST" name="login_page" finished-at="2022-11-30T21:28:27 IST" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_page -->
+        <test-method signature="go_to_zoho_homepage_sendEmail(java.lang.String)[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" started-at="2022-11-30T21:28:27 IST" name="go_to_zoho_homepage_sendEmail" depends-on-groups="initial" finished-at="2022-11-30T21:28:27 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zohomailid123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_to_zoho_homepage_sendEmail -->
+        <test-method signature="go_to_zoho_homepage_sendPassword(java.lang.String)[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" started-at="2022-11-30T21:28:27 IST" name="go_to_zoho_homepage_sendPassword" finished-at="2022-11-30T21:28:27 IST" depends-on-methods="com.testng.Zoho_TestNG5ParameterBase_CO_WDM.go_to_zoho_homepage_sendEmail" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zohopassword123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_to_zoho_homepage_sendPassword -->
+        <test-method signature="go_to_zoho_homepage_sendMobileNo(java.lang.String)[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" started-at="2022-11-30T21:28:27 IST" name="go_to_zoho_homepage_sendMobileNo" depends-on-groups="Mail PW" finished-at="2022-11-30T21:28:27 IST" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234657]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_to_zoho_homepage_sendMobileNo -->
+        <test-method signature="go_to_zoho_homepage_sendTandC()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" started-at="2022-11-30T21:28:27 IST" name="go_to_zoho_homepage_sendTandC" finished-at="2022-11-30T21:28:27 IST" depends-on-methods="com.testng.Zoho_TestNG5ParameterBase_CO_WDM.go_to_zoho_homepage_sendMobileNo" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_to_zoho_homepage_sendTandC -->
+        <test-method signature="go_to_zoho_homepage_sendSignUp()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" started-at="2022-11-30T21:28:27 IST" name="go_to_zoho_homepage_sendSignUp" finished-at="2022-11-30T21:28:27 IST" depends-on-methods="com.testng.Zoho_TestNG5ParameterBase_CO_WDM.go_to_zoho_homepage_sendTandC" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_to_zoho_homepage_sendSignUp -->
+        <test-method signature="click_submit_takescreenshot()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" started-at="2022-11-30T21:28:27 IST" name="click_submit_takescreenshot" depends-on-groups="Mob TC" finished-at="2022-11-30T21:28:30 IST" duration-ms="3343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_submit_takescreenshot -->
+        <test-method signature="afterTest_Execution()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" started-at="2022-11-30T21:28:30 IST" name="afterTest_Execution" depends-on-groups="Screenshot" finished-at="2022-11-30T21:28:31 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest_Execution -->
+        <test-method signature="endSession()[pri:0, instance:com.testng.Zoho_TestNG5ParameterBase_CO_WDM@3ce1e309]" started-at="2022-11-30T21:28:31 IST" name="endSession" finished-at="2022-11-30T21:28:31 IST" depends-on-methods="com.testng.Zoho_TestNG5ParameterBase_CO_WDM.afterTest_Execution" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- com.testng.Zoho_TestNG5ParameterBase_CO_WDM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

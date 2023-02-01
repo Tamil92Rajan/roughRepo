@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testng.Zoho_TestNG4ParameterBase_CO_WDM">
+        <methods>
+          <include name="go_to_zoho_homepage_sendSignUp"/>
+          <include name="browserLaunch"/>
+          <include name="go_to_zoho_homepage_sendMobileNo"/>
+          <include name="click_submit_takescreenshot"/>
+          <include name="endSession"/>
+          <include name="login_page"/>
+          <include name="beforeSuite_execution"/>
+          <include name="go_to_zoho_homepage_sendPassword"/>
+          <include name="afterTest_Execution"/>
+          <include name="go_to_zoho_homepage_sendEmail"/>
+          <include name="go_to_zoho_homepage_sendTandC"/>
+        </methods>
+      </class> <!-- com.testng.Zoho_TestNG4ParameterBase_CO_WDM -->
+      <class name="com.testng.Zoho_TestNG2">
+        <methods>
+          <include name="go_to_zoho_homepage_sendEmail"/>
+          <include name="afterTest_Execution"/>
+          <include name="go_to_zoho_homepage_sendTandC"/>
+          <include name="go_to_zoho_homepage_sendMobileNo"/>
+          <include name="endSession"/>
+          <include name="login_page"/>
+          <include name="browserLaunch"/>
+          <include name="go_to_zoho_homepage_sendSignUp"/>
+          <include name="go_to_zoho_homepage_sendPassword"/>
+          <include name="beforeSuite_execution"/>
+          <include name="click_submit_takescreenshot"/>
+        </methods>
+      </class> <!-- com.testng.Zoho_TestNG2 -->
+      <class name="com.testng.Zoho_TestNG3ParameterCO_WDM">
+        <methods>
+          <include name="login_page"/>
+          <include name="beforeSuite_execution"/>
+          <include name="browserLaunch"/>
+          <include name="go_to_zoho_homepage_sendUserData" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.testng.Zoho_TestNG3ParameterCO_WDM -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
